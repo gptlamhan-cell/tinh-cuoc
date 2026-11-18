@@ -11,7 +11,8 @@
 </head>
 <body>
   <!-- Nhúng web app Apps Script để người đăng nhập nhiều tài khoản Google vẫn mở được. -->
-  <iframe
+  <!-- credentialless: tải iframe không kèm cookie Google, nên không bị lỗi authuser khi trình duyệt có nhiều tài khoản. -->
+  <iframe credentialless
     src="https://script.google.com/macros/s/AKfycbyQzPSjW-TXkhzznTVse5_k7AvA1bXBRMo_O9Vgdkqevq6X6lUbHegPEBFbk-2etLS5PA/exec"
     title="Tính cước trucking"
     allow="clipboard-write; geolocation"></iframe>
